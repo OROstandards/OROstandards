@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ORO Standards™ | The Gold Standard</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+background:#050505;
+color:white;
+font-family:'Montserrat',sans-serif;
+overflow-x:hidden;
+}
+
+:root{
+--gold:#d4af37;
+--gold-light:#f7d774;
+--black:#050505;
+--charcoal:#111;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+padding:25px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,.75);
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+.logo{
+font-family:'Cinzel',serif;
+font-size:1.5rem;
+color:var(--gold);
+letter-spacing:2px;
+}
+
+nav ul{
+display:flex;
+gap:30px;
+list-style:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+transition:.3s;
+}
+
+nav a:hover{
+color:var(--gold);
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:
+radial-gradient(circle at center,
+rgba(212,175,55,.15),
+transparent 60%);
+}
+
+.os-logo{
+width:220px;
+height:220px;
+border:2px solid var(--gold);
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-family:'Cinzel',serif;
+font-size:5rem;
+color:var(--gold);
+margin-bottom:30px;
+animation:float 4s ease-in-out infinite;
+box-shadow:0 0 40px rgba(212,175,55,.25);
+}
+
+@keyframes float{
+0%,100%{transform:translateY(0);}
+50%{transform:translateY(-12px);}
+}
+
+.hero h1{
+font-family:'Cinzel',serif;
+font-size:4rem;
+color:var(--gold);
+letter-spacing:4px;
+}
+
+.hero p{
+margin-top:15px;
+font-size:1.2rem;
+color:#ccc;
+max-width:700px;
+}
+
+.buttons{
+margin-top:40px;
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.btn{
+padding:14px 35px;
+border:1px solid var(--gold);
+text-decoration:none;
+color:var(--gold);
+transition:.4s;
+}
+
+.btn:hover{
+background:var(--gold);
+color:black;
+}
+
+section{
+padding:120px 10%;
+}
+
+.section-title{
+font-family:'Cinzel',serif;
+font-size:2.5rem;
+color:var(--gold);
+margin-bottom:30px;
+text-align:center;
+}
+
+.manifesto{
+max-width:900px;
+margin:auto;
+font-size:1.2rem;
+line-height:2;
+text-align:center;
+color:#ddd;
+}
+
+.ventures{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+margin-top:50px;
+}
+
+.card{
+background:#111;
+padding:35px;
+border:1px solid rgba(212,175,55,.25);
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+border-color:var(--gold);
+}
+
+.card h3{
+color:var(--gold);
+margin-bottom:15px;
+font-family:'Cinzel',serif;
+}
+
+.founder{
+max-width:900px;
+margin:auto;
+text-align:center;
+font-size:1.15rem;
+line-height:2;
+color:#ddd;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact a{
+color:var(--gold);
+text-decoration:none;
+font-size:1.2rem;
+}
+
+footer{
+padding:50px;
+text-align:center;
+border-top:1px solid rgba(212,175,55,.2);
+}
+
+footer h2{
+font-family:'Cinzel',serif;
+color:var(--gold);
+margin-bottom:10px;
+}
+
+footer p{
+color:#999;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:2.5rem;
+}
+
+.os-logo{
+width:170px;
+height:170px;
+font-size:3.5rem;
+}
+
+.section-title{
+font-size:2rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">ORO STANDARDS™</div>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#ventures">Ventures</a></li>
+<li><a href="#founder">Founder</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+
+<div class="os-logo">OS</div>
+
+<h1>ORO STANDARDS™</h1>
+
+<p>
+The Gold Standard of Ambition, Business & Culture.
+</p>
+
+<div class="buttons">
+<a href="#about" class="btn">ENTER ORO</a>
+<a href="#ventures" class="btn">EXPLORE VENTURES</a>
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="section-title">Manifesto</h2>
+
+<div class="manifesto">
+
+<p>
+ORO Standards is more than a brand.
+</p>
+
+<br>
+
+<p>
+It is a commitment to excellence.
+</p>
+
+<br>
+
+<p>
+Built through vision, entrepreneurship, creativity and culture,
+ORO Standards represents the pursuit of a higher standard
+in everything we create.
+</p>
+
+<br>
+
+<p>
+This is not a company.
+</p>
+
+<p>
+This is a legacy.
+</p>
+
+</div>
+
+</section>
+
+<section id="ventures">
+
+<h2 class="section-title">Ventures</h2>
+
+<div class="ventures">
+
+<div class="card">
+<h3>Connect Solutions</h3>
+<p>
+Whatever you need, we connect you.
+</p>
+</div>
+
+<div class="card">
+<h3>BudWay Ldn</h3>
+<p>
+Premium verified flower. Authenticity, quality and culture.
+</p>
+</div>
+
+<div class="card">
+<h3>Music</h3>
+<p>
+Releases, projects and creative influence under the ORO Standards banner.
+</p>
+</div>
+
+<div class="card">
+<h3>Future Ventures</h3>
+<p>
+Building the next generation of brands, opportunities and legacy.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="founder">
+
+<h2 class="section-title">Founder</h2>
+
+<div class="founder">
+
+<p>
+Built from vision.
+</p>
+
+<br>
+
+<p>
+Driven by ambition.
+</p>
+
+<br>
+
+<p>
+ORO Standards serves as the personal platform,
+business portfolio and creative ecosystem of a founder
+committed to setting a higher standard.
+</p>
+
+<br>
+
+<p>
+Business. Culture. Legacy.
+</p>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact</h2>
+
+<div class="contact">
+
+<p>Partnerships • Collaborations • Opportunities</p>
+
+<br>
+
+<a href="mailto:hello@orostandards.com">
+hello@orostandards.com
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>ORO STANDARDS™</h2>
+
+<p>Setting The Gold Standard.</p>
+
+</footer>
+
+</body>
+</html>
